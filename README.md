@@ -1,139 +1,71 @@
-# VOZON Gaming Engine
+# VOZON AI Gaming Engine
 
-🎮 Die KI-gestützte Gaming Engine für die nächste Generation der Spieleentwicklung.
+Eine leistungsstarke Unity-basierte Spiele-Engine mit integrierter KI-Unterstützung.
 
-![VOZON Banner](assets/images/vozon_banner.png)
+## Überblick
 
-## 🌟 Hauptfunktionen
+Die VOZON AI Gaming Engine ist ein umfassendes Framework für die Spieleentwicklung, das fortschrittliche KI-Funktionen mit traditionellen Spielemechaniken verbindet. Die Engine bietet eine modulare Architektur und ermöglicht Entwicklern die einfache Integration von KI-gesteuerten Elementen in ihre Spiele.
 
-### KI-gestützte Charaktererstellung
-- 🤖 Generiere 3D-Charaktere aus Textbeschreibungen
-- 🎨 Automatische Rigging- und Animations-Integration
-- 👥 Anpassbare Charakterpersönlichkeiten und -verhalten
-- 🎭 Dynamische Gesichtsausdrücke und Emotionen
+## Hauptfunktionen
 
-### Dynamische Weltengeneration
-- 🌍 Erstelle komplette 3D-Welten durch Textbeschreibungen
-- 🏗️ Prozedural generierte Landschaften und Städte
-- 🌲 Intelligente Umgebungsgestaltung
-- 🌅 Dynamisches Tag-/Nachtsystem
+- **KI-System**: Fortschrittliches KI-System für NPCs und dynamische Spielelemente
+- **Physik-Engine**: Präzise Kollisionserkennung und realistische Physikberechnungen
+- **Rendering-System**: Hochleistungs-Renderer mit PBR und Toon-Shader-Unterstützung
+- **Input-System**: Flexibles Input-Management mit anpassbaren Tastenbelegungen
+- **Audio-System**: Umfassendes Audiomanagement für Musik und Soundeffekte
+- **UI-System**: Benutzerfreundliches UI-Framework mit Panel-Management
 
-### Gameplay-Features
-- ⚔️ Integriertes Kampfsystem
-- 🎯 Fortgeschrittene Physik-Engine
-- 🎼 Adaptive Musiksystem
-- 💬 KI-gestütztes Dialogsystem
+## Installation
 
-## 🚀 Schnellstart
-
-1. **Installation**
+1. Klonen Sie das Repository:
 ```bash
-git clone https://github.com/yourusername/vozon-engine.git
-cd vozon-engine
-./setup.sh
+git clone https://github.com/AMA2018/Vozon-AI.git
 ```
 
-2. **Charakter erstellen**
-```python
-from vozon import CharacterGenerator
+2. Öffnen Sie das Projekt in Unity (2021.3 oder höher)
+3. Importieren Sie die erforderlichen Abhängigkeiten über den Package Manager
 
-# Erstelle einen Charakter mit KI
-character = CharacterGenerator.create(
-    "Ein mysteriöser Waldelf mit leuchtend grünen Augen und 
-     antiker Rüstung, der Naturmagie beherrscht"
-)
+## Schnellstart
+
+```csharp
+// Initialisieren der Engine
+var engine = VozonEngine.Initialize();
+
+// Konfigurieren der KI
+engine.AI.ConfigureAgent(new AIConfig {
+    behavior = AIBehavior.Intelligent,
+    learningRate = 0.01f
+});
+
+// Starten des Spiels
+engine.Start();
 ```
 
-3. **Welt generieren**
-```python
-from vozon import WorldGenerator
+## Systemanforderungen
 
-# Generiere eine Spielwelt
-world = WorldGenerator.create(
-    "Eine verwunschene Waldstadt mit schwebenden Kristallen, 
-     leuchtenden Pilzen und antiken Elfenruinen"
-)
-```
+- Unity 2021.3 oder höher
+- .NET Framework 4.7.1 oder höher
+- Mindestens 8GB RAM
+- DirectX 11 kompatible Grafikkarte
 
-## 🛠️ Komponenten
+## Dokumentation
 
-### Character Studio
-- Charaktererstellung und -anpassung
-- KI-gestützte Animations-Pipeline
-- Verhaltens- und Persönlichkeitseditor
+Ausführliche Dokumentation finden Sie im [Wiki](https://github.com/AMA2018/Vozon-AI/wiki).
 
-### World Builder
-- Terrain-Generator
-- Städte- und Dungeonbauer
-- Umgebungs-KI-System
+## Lizenz
 
-### Game Logic System
-- Visual Scripting
-- KI-Verhaltensbäume
-- Quest- und Missionsdesigner
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Details finden Sie in der [LICENSE](LICENSE) Datei.
 
-### Asset Manager
-- KI-gestützte Asset-Generierung
-- Automatische LOD-Optimierung
-- Smart Asset-Streaming
+## Beitragen
 
-## 📚 Dokumentation
+1. Fork des Repositories
+2. Erstellen Sie einen Feature-Branch
+3. Committen Sie Ihre Änderungen
+4. Pushen Sie zum Branch
+5. Erstellen Sie einen Pull Request
 
-Ausführliche Dokumentation findest du unter [docs.vozon-engine.com](https://docs.vozon-engine.com)
+## Kontakt
 
-## 🎓 Tutorials
-
-- [Erste Schritte mit VOZON](tutorials/getting-started.md)
-- [Charaktererstellung Guide](tutorials/character-creation.md)
-- [Weltengestaltung Tutorial](tutorials/world-building.md)
-- [KI-Integration Best Practices](tutorials/ai-integration.md)
-
-## 🎮 Beispielprojekte
-
-1. **Fantasy RPG Template**
-   - Komplettes RPG-Grundgerüst
-   - KI-generierte Questsysteme
-   - Vorgefertigte Charakterklassen
-
-2. **Sci-Fi Shooter Demo**
-   - Fortgeschrittene Waffensysteme
-   - Prozedural generierte Raumschiffe
-   - KI-gesteuerte Gegner
-
-## 💻 Systemanforderungen
-
-- **Betriebssystem:** Windows 10/11, macOS 12+, Linux
-- **CPU:** 6+ Kerne empfohlen
-- **RAM:** 16GB minimum, 32GB empfohlen
-- **GPU:** 8GB VRAM minimum
-- **Speicher:** 50GB verfügbarer Speicherplatz
-- **Internet:** Schnelle Verbindung für KI-Features
-
-## 🤝 Community
-
-- [Discord Server](https://discord.gg/vozon)
-- [Forum](https://forum.vozon-engine.com)
-- [Reddit](https://reddit.com/r/vozon)
-
-## 📄 Lizenz
-
-VOZON steht unter der MIT-Lizenz. Siehe [LICENSE](LICENSE) für Details.
-
-## 🌟 Features in Entwicklung
-
-- 🎭 Erweiterte Gesichtsanimationen
-- 🌍 Verbesserte Weltengenerierung
-- 🤖 Erweitertes KI-Verhaltenssystem
-- 🎮 VR/AR Unterstützung
-- 🌐 Multiplayer-Integration
-
-## 🔧 Support
-
-Bei technischen Fragen oder Problemen:
-- 📧 support@vozon-engine.com
-- 🐛 [Issue Tracker](https://github.com/yourusername/vozon-engine/issues)
-- 💬 [Community Discord](https://discord.gg/vozon)
-
----
-
-Entwickelt mit ❤️ vom VOZON-Team 
+- Projektleiter: Mayssam Bae
+- E-Mail: mayssam.bae@vozon.ai
+- Website: https://vozon.ai 
