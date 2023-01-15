@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtuelle Umgebungen
+venv/
+ENV/
+env/
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+.vscode/
+.vs/
+.idea/
+.gradle/
+
+# OS-generierte Dateien
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporäre Dateien und generierte Inhalte
+frames/
+generated_models/
+generated_videos/
+*.tmp
+*.temp
+
+# Konfigurationsdateien mit sensiblen Informationen
+# Beachten Sie, dass config.json bereits im Repository ist und hier nicht ignoriert wird
+# Falls Sie eine lokale Kopie mit sensiblen Daten haben, benennen Sie sie in config.local.json um
+config.local.json
+
+# Never ignore Asset meta data
+![Aa]ssets/**/*.meta
+
+# Visual Studio / MonoDevelop generated
+.vs/
+.vscode/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# VOZON specific
+generated_models/
+webgl_builds/
+*.gz
+node_modules/
+dist/
+*.log 
