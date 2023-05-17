@@ -1,0 +1,1 @@
+Commit 54: fix(input): Add localization support
