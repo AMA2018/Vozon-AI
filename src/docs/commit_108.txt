@@ -1,0 +1,1 @@
+Commit 108: chore(docs): Add support for custom input mappings
