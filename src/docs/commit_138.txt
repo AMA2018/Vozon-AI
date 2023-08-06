@@ -1,0 +1,1 @@
+Commit 138: feat(docs): Add localization support
