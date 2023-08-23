@@ -1,0 +1,1 @@
+Commit 155: style(tests): Add support for custom input mappings
