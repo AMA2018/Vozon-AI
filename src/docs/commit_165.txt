@@ -1,0 +1,1 @@
+Commit 165: fix(docs): Add localization support
