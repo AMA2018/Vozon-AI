@@ -1,0 +1,1 @@
+Commit 211: fix(ui): Add localization support
