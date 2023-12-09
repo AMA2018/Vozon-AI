@@ -1,0 +1,1 @@
+Commit 267: docs(tests): Add animation state machine
