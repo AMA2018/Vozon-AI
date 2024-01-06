@@ -1,0 +1,1 @@
+Commit 296: feat(animation): Add localization support
