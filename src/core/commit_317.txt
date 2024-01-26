@@ -1,0 +1,1 @@
+Commit 317: perf(core): Add localization support
