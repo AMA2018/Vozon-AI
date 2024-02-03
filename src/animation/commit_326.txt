@@ -1,0 +1,1 @@
+Commit 326: docs(animation): Implement integration tests
