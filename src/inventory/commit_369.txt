@@ -1,0 +1,1 @@
+Commit 369: style(inventory): Update documentation
