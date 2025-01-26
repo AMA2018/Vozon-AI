@@ -1,71 +1,71 @@
 # VOZON AI Gaming Engine
 
-Eine leistungsstarke Unity-basierte Spiele-Engine mit integrierter KI-Unterstützung.
+A powerful Unity-based game engine with integrated AI features for next-generation game development.
 
-## Überblick
+## Overview
 
-Die VOZON AI Gaming Engine ist ein umfassendes Framework für die Spieleentwicklung, das fortschrittliche KI-Funktionen mit traditionellen Spielemechaniken verbindet. Die Engine bietet eine modulare Architektur und ermöglicht Entwicklern die einfache Integration von KI-gesteuerten Elementen in ihre Spiele.
+VOZON AI is a comprehensive framework for game development that combines advanced AI features with traditional game mechanics. Built on top of Unity, it provides a robust foundation for creating immersive gaming experiences with intelligent behaviors and dynamic systems.
 
-## Hauptfunktionen
+## Core Features
 
-- **KI-System**: Fortschrittliches KI-System für NPCs und dynamische Spielelemente
-- **Physik-Engine**: Präzise Kollisionserkennung und realistische Physikberechnungen
-- **Rendering-System**: Hochleistungs-Renderer mit PBR und Toon-Shader-Unterstützung
-- **Input-System**: Flexibles Input-Management mit anpassbaren Tastenbelegungen
-- **Audio-System**: Umfassendes Audiomanagement für Musik und Soundeffekte
-- **UI-System**: Benutzerfreundliches UI-Framework mit Panel-Management
+- **AI System**: Advanced pathfinding, decision making, and behavior trees
+- **Physics Engine**: High-performance collision detection and realistic physics simulation
+- **Rendering System**: Custom shaders, particle systems, and ray tracing support
+- **Input System**: Multi-platform input handling with customizable mappings
+- **Audio System**: 3D audio spatialization and dynamic mixing
+- **UI System**: Responsive layouts and animated components
+- **Network System**: Efficient multiplayer synchronization and security
+- **Animation System**: Blending system and state machine
+- **Inventory System**: Flexible item management with drag-and-drop support
+- **Quest System**: Dynamic quest generation and tracking
 
 ## Installation
 
-1. Klonen Sie das Repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/AMA2018/Vozon-AI.git
 ```
 
-2. Öffnen Sie das Projekt in Unity (2021.3 oder höher)
-3. Importieren Sie die erforderlichen Abhängigkeiten über den Package Manager
+2. Open the project in Unity 2022.3 or later
 
-## Schnellstart
+## Quick Start
 
 ```csharp
-// Initialisieren der Engine
-var engine = VozonEngine.Initialize();
+// Initialize the engine
+VozonEngine.Initialize();
 
-// Konfigurieren der KI
-engine.AI.ConfigureAgent(new AIConfig {
-    behavior = AIBehavior.Intelligent,
-    learningRate = 0.01f
+// Configure AI settings
+AISystem.Configure(new AIConfig {
+    PathfindingAlgorithm = PathfindingType.Advanced,
+    DecisionUpdateRate = 0.1f
 });
-
-// Starten des Spiels
-engine.Start();
 ```
 
-## Systemanforderungen
+## System Requirements
 
-- Unity 2021.3 oder höher
-- .NET Framework 4.7.1 oder höher
-- Mindestens 8GB RAM
-- DirectX 11 kompatible Grafikkarte
+- Unity 2022.3+
+- .NET Framework 4.7.1+
+- 8GB RAM minimum
+- DirectX 11+ compatible graphics card
 
-## Dokumentation
+## Documentation
 
-Ausführliche Dokumentation finden Sie im [Wiki](https://github.com/AMA2018/Vozon-AI/wiki).
+Visit our [Wiki](https://github.com/AMA2018/Vozon-AI/wiki) for detailed documentation.
 
-## Lizenz
+## License
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Details finden Sie in der [LICENSE](LICENSE) Datei.
+This project is licensed under the MIT License.
 
-## Beitragen
+## Contributing
 
-1. Fork des Repositories
-2. Erstellen Sie einen Feature-Branch
-3. Committen Sie Ihre Änderungen
-4. Pushen Sie zum Branch
-5. Erstellen Sie einen Pull Request
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Kontakt
+## Contact
 
-- Projektleiter: Mayssam Bae
-- E-Mail: mayssam.bae@vozon.ai
+Project Lead: Mayssam Bae
+- Email: mayssam.bae@vozon.ai
 - Website: https://vozon.ai 
